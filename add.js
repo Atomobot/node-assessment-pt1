@@ -6,12 +6,12 @@ function addItem(products, req, res, db) {
             db.get('cart')
                 .push(parseInt(req.params.id))
                 .write();
-            res.send({ 'status': 'success', 'text': 'Product has been added to cart' });
+            res.send({ 'status': 'YAY!', 'text': 'Product has been added to cart' });
         } else {
-            res.send({ 'status': 'error', 'text': 'Product already exists in cart' });
+            res.send({ 'status': 'NOPE!', 'text': 'Product already exists in cart' });
         }
     } else {
-        res.send({ 'status': 'error', 'text': 'Product with this ID does not exist' });
+        res.send({ 'status': 'DERP!', 'text': 'Product with this ID does not exist' });
     }
 }
 
