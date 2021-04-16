@@ -1,0 +1,67 @@
+{
+	"products": [
+		{
+		  "id": 0,
+		  "name": "Malin",
+		  "description": "It's cheap, but don't let that fool you, it requires large amount of attention and loli supplies",
+		  "price": 1,
+		  "image": "https://placeimg.com/640/480/any"
+		},
+		{
+		  "id": 1,
+		  "name": "Loli",
+		  "description": "Supplies for Malin",
+		  "price": 20000,
+		  "image": "https://placeimg.com/640/480/any"
+		},
+		{
+		  "id": 2,
+		  "name": "Luxury Air 1 liter",
+		  "price": 100,
+		  "image": "https://placeimg.com/640/480/any"
+		},
+		{
+		  "id": 3,
+		  "name": "Banan",
+		  "price": 69,
+		  "image": "https://placeimg.com/640/480/any"
+		},
+		{
+		  "id": 4,
+		  "name": "Vegan",
+		  "price": 42,
+		  "image": "https://placeimg.com/640/480/any"
+		},
+		{
+		  "id": 5,
+		  "name": "Cristophers Love & Attention",
+		  "price": 999999,
+		  "image": "https://placeimg.com/640/480/any"
+		},
+		{
+		  "id": 6,
+		  "name": "I ran out of products",
+		  "price": 59,
+		  "image": "https://placeimg.com/640/480/any"
+		},
+		{
+		  "id": 7,
+		  "name": "Random Product #45",
+		  "price": 2371923,
+		  "image": "https://placeimg.com/640/480/any"
+		},
+		{
+		  "id": 8,
+		  "name": "Marcus",
+		  "price": 250000,
+		  "image": "https://placeimg.com/640/480/any"
+		},
+		{
+		  "id": 9,
+		  "name": "Ingenting",
+		  "price": 0,
+		  "image": "https://placeimg.com/640/480/any"
+		}
+	  ],
+	  "cart": []
+}
