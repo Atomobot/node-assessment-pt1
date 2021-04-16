@@ -11,10 +11,14 @@ const products = db.get('products').value();
 const adder = require('./add.js');
 const remover = require('./remove.js');
 
+//link to variable products
+
 app.get('/api/products', function (req, res) {
 
     res.send(products);
 });
+
+//link to cart, this run every time it's updated
 
 app.get('/api/cart', function (req, res) {
 
@@ -22,9 +26,13 @@ app.get('/api/cart', function (req, res) {
     res.send(cart);
 });
 
+//this adds the ID to the cart, so you don't need the whole object
+
 app.post('/api/add/:id', function (req, res) {
     adder.addItem(products, req, res, db);
 });
+
+// deletes from cart
 
 app.delete('/api/remove/:id', function (req, res) {
     remover.removeItem(products, req, res, db);

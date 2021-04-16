@@ -1,5 +1,4 @@
-// I have divided the code like this because ... the task was to divide the code and
-// this feels like the least unnecessary way to split the code
+// I have divided the code like this because ... the task was to divide the code 
 function removeItem(products, req, res, db) {
     const cart = db.get('cart').value();
     if (cart.indexOf(parseInt(req.params.id)) !== -1) {
