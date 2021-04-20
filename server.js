@@ -4,14 +4,14 @@ app.use(express.json());
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 
-const adapter = new FileSync('db.json');
+const adapter = new FileSync('products.json');
 const db = low(adapter);
 const products = db.get('products').value();
 
 const adder = require('./add.js');
 const remover = require('./remove.js');
 
-//link to variable products
+//gets the products
 
 app.get('/api/products', function (req, res) {
 
